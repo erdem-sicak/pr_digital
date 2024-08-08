@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robot', sans-serif;
+}
+body {
+    background-color: #F6F6F6;
+}
+a, li{
+    list-style-type: none;
+    text-decoration: none;
+    color: #141414;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7rem 2rem 7rem;
+}
+.logo img {
+    width: 75%;
+}
+.links {
+    display: flex;
+    gap: 51px;
+}
+
+.meet a {
+    background-color: #141414;
+    color: #ffff;
+    padding: 1rem 3rem;
+    border-radius: 17px;
+}
+
+/** navbar end **/
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 7rem 2rem 7rem;
+}
+.f {
+    background-color: #fff;
+    border-radius: 21px;
+}
+.f1 h1 {
+    width: 100%;
+    display: inline-block;
+    font-size: 81px;
+    font-weight: 300;
+    margin: 3rem 10.1rem 3rem 0;
+    padding-left: 3rem;
+}
+.swt {
+    width: 100%;
+    position: relative;
+    left: 1.5rem;  
+}
+.b1 {
+    position: absolute;
+    padding: 2rem 3.5rem;
+    background-color: #5678FF;
+    border-radius: 75px;
+    top: -13.5rem;
+    left: 25rem;
+}
+
+.b2 {
+    position: absolute;
+    padding: 1.7rem 1.7rem;
+    background-color: #fff;
+    border-radius: 75px;
+    top: -13.2rem;
+    left: 28.3rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn button {
+    width: 40%;
+    border: none;
+    background-color: #141414;
+    color: #fff;
+    border-radius: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 2rem;
+    margin: 2rem 0 5rem 3rem;
+    font-size: 21px;
+}
+.btn button i {
+    background-color: #ffff;
+    width: 75px;
+    height: 75px;
+    font-size: 25px;
+    color: #141414;
+    border-radius: 50px;
+    margin: .3rem .3rem .3rem 0;
+    padding: 1.5rem 1rem;
+}
+.s {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 21px;
+    margin-top: 0.5rem;
+}
+
+.s img {
+    margin: 1rem 3rem;
+}
+
+.type h2 {
+    font-size: 19px;
+    margin-bottom: 1rem;
+    margin-right: 12.5rem;
+}
+
+.type p {
+    color: #3333337a;
+}
+
+.s i {
+    font-size: 25px;
+}
+
+/** First Box end **/
+.second {
+    position: relative;
+}
+.second img {
+    width: 100%;
+    height: 635px;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 21px;
+}
+
+.s2 {
+    position: absolute;
+    top: 25.9rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 21px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    left: 0;
+    right: 0;
+    padding: 2rem 1rem 1rem 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.s2 h3 {
+    width: 100%;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.s2 p {
+    width: 100%;
+    color: #fff;
+    font-weight: 300;
+}
+
+.s3 {
+    display: flex;
+    align-items: center;
+}
+
+.s3 button {
+    background: none;
+    border: none;
+}
+.s3 button i {
+    background-color: #ffff;
+    width: 75px;
+    height: 75px;
+    font-size: 25px;
+    color: #141414;
+    border-radius: 50px;
+    padding: 1.5rem 1.5rem;
+}
